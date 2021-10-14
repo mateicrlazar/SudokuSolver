@@ -86,8 +86,8 @@ void backtracking(unsigned k)
 			else
 				backtracking(k + 1);
 		/* In cazul in care celulei de pe nivelul curent din stiva nu ii este atribuita in mod valid o valoare,
-           i-o restauram pe cea initiala (0, insemnand ca va ramane necompletata), iar la revenirile din lanturile
-           de autoapeluri se vor face prelucrarile necesare altor celule */
+          	   i-o restauram pe cea initiala (0, insemnand ca va ramane necompletata), iar la revenirile din lanturile
+                   de autoapeluri se vor face prelucrarile necesare altor celule */
 		puzzle[inStack[k][1]][inStack[k][2]] = 0;
 	}
 }
