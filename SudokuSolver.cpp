@@ -6,7 +6,7 @@ ofstream g("sudoku.out");
 
 unsigned inStack[101][3], puzzle[10][10], emptyCells;
 
-/* Functia fillStack adauga indicii celulelor necompletate din puzzle-ul Sudoku
+/* Functia fillStack adauga indicii celulelor necompletate din puzzle-ul Sudoku (matrice 9x9)
    in variabila inStack (aceasta joaca rol de stiva) si contorizeaza numarul de celule necompletate din puzzle
    in variabila emptyCells */
 void fillStack()
