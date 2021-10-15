@@ -52,7 +52,7 @@ unsigned validateCell(unsigned k)
 		startCol = 7;
 	for (i = startRow; i <= startRow + 2; i++)
 		for (j = startCol; j <= startCol + 2; j++)
-			if (puzzle[i][j] == puzzle[inStack[k][1]][inStack[k][2]] && (i != inStack[k][1] || j != inStack[k][2]))
+			if (puzzle[i][j] == puzzle[inStack[k][1]][inStack[k][2]] && !(i == inStack[k][1] && j == inStack[k][2]))
 				return 0;
 	return 1;
 }
