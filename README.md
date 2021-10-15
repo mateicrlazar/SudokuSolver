@@ -1,2 +1,4 @@
 # SudokuSolver
-Acest program generează o soluție pentru problema de algoritmică https://www.pbinfo.ro/probleme/1518/sudoku. Un enunț similar a fost dat spre abordare la examenul de admitere la Facultatea de Informatică din Iași, în anul 2014, la subiectul al III-lea.
+- Acest program completeaza genereaza o posibilitate de completare a unei grile Sudoku
+- Reprezinta o solutie a problemei de algoritmica https://www.pbinfo.ro/probleme/1518/sudoku
+- Un enunt similar a fost dat spre abordare si in cadrul examenului de admitere la Facultatea de Informatica din Iasi, intalnindu-se la subiectul al III-lea
